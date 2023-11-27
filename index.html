@@ -3,29 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive 4x4 Grid for PC</title>
+    <title>Atlas Curated Outputs</title>
     <style>
         body {
             background-color: black;
-            color: white;
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
+            color: red;
         }
-
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-gap: 10px;
-            padding: 20px;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 5px;
+            margin-top: 5px;
+             height: 100vh; /* Set the height to 100% of the viewport height */
         }
-
         .iframe-container {
             position: relative;
             overflow: hidden;
-            padding-bottom: 75%; /* 4:3 aspect ratio, adjust as needed */
+            padding-bottom: 100%; /* Responsive height */
         }
-
         iframe {
             position: absolute;
             top: 0;
@@ -34,172 +30,53 @@
             height: 100%;
             border: 0;
         }
+        .number {
+            font-weight: bold;
+            font-size: 18px;
+            margin-right: 5px;
+        }
+        @media screen and (max-width: 768px) {
+            .iframe-container {
+                padding-bottom: 0%; /* Adjust responsive height for smaller screens */
+            }
+        }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center; font-size: 24px;">Responsive 4x4 Grid for PC</h1>
+    <h1 style="font-size: 18px;">Atlas by Eric De Giuli; The 10 Community Curated Outputs</h1>
     <div class="grid-container">
-        <!-- Placeholder for URL 1 -->
         <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000178"></iframe>
+            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000224" allowfullscreen></iframe>
         </div>
-
-        <!-- Placeholder for URL 2 -->
         <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000179"></iframe>
+            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000225" allowfullscreen></iframe>
         </div>
-
-        <!-- Placeholder for URL 3 -->
         <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000169"></iframe>
+            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000226" allowfullscreen></iframe>
         </div>
-
-        <!-- Placeholder for URL 4 -->
         <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000149"></iframe>
+            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000227" allowfullscreen></iframe>
         </div>
-
-        <!-- Placeholder for URL 5 -->
         <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000129"></iframe>
+            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000228" allowfullscreen></iframe>
         </div>
-
-        <!-- Placeholder for URL 6 -->
         <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000139"></iframe>
+            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000229" allowfullscreen></iframe>
         </div>
-
-        <!-- Placeholder for URL 7 -->
         <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000150"></iframe>
+            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000230" allowfullscreen></iframe>
         </div>
-
-        <!-- Placeholder for URL 8 -->
         <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000001"></iframe>
+            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000231" allowfullscreen></iframe>
         </div>
-
-        <!-- Placeholder for URL 9 -->
         <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000200"></iframe>
+            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000232" allowfullscreen></iframe>
         </div>
-
-        <!-- Placeholder for URL 10 -->
         <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000199"></iframe>
-        </div>
-
-        <!-- Placeholder for URL 11 -->
-        <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000029"></iframe>
-        </div>
-
-        <!-- Placeholder for URL 12 -->
-        <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000300"></iframe>
-        </div>
-
-        <!-- Placeholder for URL 13 -->
-        <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000301"></iframe>
-        </div>
-
-        <!-- Placeholder for URL 14 -->
-        <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000320"></iframe>
-        </div>
-
-        <!-- Placeholder for URL 15 -->
-        <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000088"></iframe>
-        </div>
-
-        <!-- Placeholder for URL 16 -->
-        <div class="iframe-container">
-            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000101"></iframe>
+            <iframe src="https://generator.artblocks.io/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/480000233" allowfullscreen></iframe>
         </div>
     </div>
-    <script>
-        // Your existing JavaScript code goes here
-
-        var finishedJobs = [];
-        var axoUrl = "https://hosted.ntent.art/projects/axo/index.html";
-
-        // First we set up an event listener to listen for messages from all iframes
-        // This allows us to communicate more effectively, with the name and tokenId
-        window.addEventListener(
-            "message",
-            (e) => {
-                // Handle the message
-                if (typeof e.data === "object" && e.data.event == "axoReady") {
-                    var iframe = document.getElementById(e.data.value);
-                    console.log(
-                        `${e.data.value} is ready. Token Id : ${e.data.tokenId}`
-                    );
-                    iframe.tokenId = e.data.tokenId;
-                }
-            },
-            false
-        );
-
-        // You can curate via the query string
-        var cmds = [
-            { action: "F", value: true, frame: 87 },
-            { action: "P", value: true, frame: 154 },
-            { action: "P", value: false, frame: 469 },
-            { action: "F", value: false, frame: 552 },
-            { action: "A", value: true, frame: 628 },
-            { action: "F", value: true, frame: 770 },
-            { action: "P", value: true, frame: 819 },
-            { action: "P", value: false, frame: 1079 },
-        ];
-
-        var scale = 5;
-
-        // Define your iframe elements with their corresponding URLs
-        var iframe1 = createIframe(
-            "iframe1",
-            "Title 1",
-            axoUrl + "?z=" + scale,
-            200,
-            200
-        );
-
-        var iframe2 = createIframe(
-            "iframe2",
-            "Title 2",
-            axoUrl + "?z=" + scale,
-            200,
-            200
-        );
-
-        // Define the rest of your iframes here...
-
-        function createIframe(id, label, url, width, height, onload = null) {
-            var container = document.createElement("div");
-            container.id = id + "-container";
-            container.style.width = width;
-            container.style.display = "inline-block";
-            var iframe = document.createElement("iframe");
-            iframe.id = id;
-            iframe.onload = () => {
-                var frame = document.getElementById(id);
-                frame.contentWindow.postMessage({ event: "hello", value: id }, "*");
-
-                if (onload) onload();
-            };
-            iframe.src = url;
-            iframe.style.width = width;
-            iframe.style.height = height;
-            container.appendChild(iframe);
-            var div = document.createElement("div");
-            div.style.textAlign = "center";
-            div.innerHTML = label;
-            container.appendChild(div);
-            document.body.appendChild(container);
-
-            return iframe;
-        }
-    </script>
 </body>
 </html>
+    <script>
+  
