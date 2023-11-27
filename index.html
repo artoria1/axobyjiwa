@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axo by Jiwa</title>
+    <title>Axo by Jiwa; sending and receiving emotional states</title>
     <style>
         body {
             background-color: black;
             color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
         }
+
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            gap: 5px;
-            margin-top: 5px;
-             height: 100vh; /* Set the height to 100% of the viewport height */
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minimum width as needed */
+            grid-gap: 10px;
+            padding: 20px;
         }
+
         .iframe-container {
             position: relative;
             overflow: hidden;
-            padding-bottom: 100%; /* Responsive height */
+            padding-bottom: 75%; /* 4:3 aspect ratio, adjust as needed */
         }
+
         iframe {
             position: absolute;
             top: 0;
@@ -30,33 +34,34 @@
             height: 100%;
             border: 0;
         }
-        .number {
-            font-weight: bold;
-            font-size: 18px;
-            margin-right: 5px;
-        }
-        @media screen and (max-width: 768px) {
-            .iframe-container {
-                padding-bottom: 0%; /* Adjust responsive height for smaller screens */
-            }
-        }
     </style>
 </head>
 <body>
-    <h1 style="font-size: 18px;">Axo by Jiwa; sending and receiving emotional states</h1>
+    <h1 style="text-align: center; font-size: 24px;">Responsive 2x2 Grid for PC</h1>
     <div class="grid-container">
+        <!-- Placeholder for URL 1 -->
         <div class="iframe-container">
-            <iframe src="https://hosted.ntent.art/projects/axo/index.html" allowfullscreen></iframe>
+            <iframe src="https://hosted.ntent.art/projects/axo/index.html"></iframe>
         </div>
+
+        <!-- Placeholder for URL 2 -->
         <div class="iframe-container">
-            <iframe src="https://hosted.ntent.art/projects/axo/index.html" allowfullscreen></iframe>
+            <iframe src="https://hosted.ntent.art/projects/axo/index.html"></iframe>
         </div>
+
+        <!-- Placeholder for URL 3 -->
         <div class="iframe-container">
-            <iframe src="https://hosted.ntent.art/projects/axo/index.html" allowfullscreen></iframe>
+            <iframe src="https://hosted.ntent.art/projects/axo/index.html"></iframe>
         </div>
+
+        <!-- Placeholder for URL 4 -->
         <div class="iframe-container">
-            <iframe src="https://hosted.ntent.art/projects/axo/index.html" allowfullscreen></iframe>
+            <iframe src="https://hosted.ntent.art/projects/axo/index.html"></iframe>
         </div>
+    </div>
+</body>
+</html>
+
        
     </div>
 </body>
